@@ -2,7 +2,17 @@
 $num01 = $_GET['num01'];
 $num02 = $_GET['num02'];
 if (is_numeric($num01) && is_numeric($num02)) {
-	$answer = $num01 +$num02;
+	switch ($operators) {
+		case "plus":
+			$answer = $num01 + $num02;
+			break;
+		case "minus":
+			$answer = $num01 - $num02;
+			break;
+		case "times":
+			$answer = $num01 * $num02;
+			break;
+	}
 } else {
 	$answer = '数字以外が含まれています';
 }
