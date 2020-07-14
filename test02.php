@@ -18,6 +18,7 @@ if (is_numeric($num01) && is_numeric($num02)) {
 <p>結果：<?php echo $answer; ?></p>
 <br>
 <p>結果は正しいですか？</p>
+<p>'はい'か'いいえ'を選択してください</p>
 <form action="test03.php" method="GET">
 <p>
 <input type="radio" name="answer" value="yes" required>はい
