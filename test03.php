@@ -15,6 +15,7 @@ if ($answer == 'yes') {
 <title>結果</title>
 </head>
 <body>
+<p>メッセージ</p>
 <p><?php echo $message; ?></p>
 </body>
 </html>
