@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
-<hesd>
+<head>
 <meta charset="UTF-8">
 <title>計算</title>
 </head>
