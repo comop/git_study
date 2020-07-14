@@ -5,6 +5,7 @@ if (is_numeric($num01) && is_numeric($num02)) {
 	switch ($operators) {
 		case "plus":
 			$answer = $num01 + $num02;
+<<<<<<< HEAD
 			bresk;
 		case "minus":
 			$answer = $num01 - $num02;
@@ -12,6 +13,15 @@ if (is_numeric($num01) && is_numeric($num02)) {
 		case "times":
 			$answer = $num01 * $num02;
 			bresk;
+=======
+			break;
+		case "minus":
+			$answer = $num01 - $num02;
+			break;
+		case "times":
+			$answer = $num01 * $num02;
+			break;
+>>>>>>> c47bc1cf5e420ddc092189dafa713ae2e6b98238
 	}
 } else {
 	$answer = '数字以外が含まれています';
