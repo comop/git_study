@@ -26,5 +26,6 @@ if (is_numeric($num01) && is_numeric($num02)) {
 </p>
 <p><input type="submit" value="送信する"></p>
 </form>
-
+</body>
+</html>
 
